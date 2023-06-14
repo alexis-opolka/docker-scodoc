@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM debian:latest
 
 ### We add the Scodoc repo
 RUN deb http://scodoc.org/repo bullseye main
